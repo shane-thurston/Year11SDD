@@ -21,3 +21,6 @@ for x_pos in range(0,14):
 
 #4. Creating a paddle (player)
 paddle = Entity(model = 'quad', scale = (2,0.25), position = (0,-3.6,0), collider = 'box', color = color.green)
+
+
+app.run()
